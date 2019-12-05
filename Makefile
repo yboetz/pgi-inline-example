@@ -1,5 +1,5 @@
 FC = pgfortran
-FFLAGS = -O2 -Minfo=all
+FFLAGS = -O2 -Minfo=all -Mllvm
 
 .PHONY: all
 
